@@ -1,8 +1,14 @@
 # EduSphere
 
+A modern educational management platform designed to streamline academic activities for students and teachers while providing placement support and communication features.
+
 ## Overview
 
-EduSphere is a web-based educational management platform designed to streamline academic and placement-related activities for students and teachers. The platform provides dedicated dashboards for managing attendance, assignments, examinations, study materials, communication, and placement opportunities.
+EduSphere is a web-based Student-Teacher Management System that provides dedicated dashboards for students and teachers. The platform helps manage attendance, assignments, examinations, study materials, library resources, placement opportunities, communication, and academic records.
+
+The project demonstrates frontend development using React.js and backend integration using Node.js and Express.js for selected modules.
+
+---
 
 ## Features
 
@@ -24,9 +30,11 @@ EduSphere is a web-based educational management platform designed to streamline 
 
 * Teacher Dashboard
 * Attendance Management
-* Assignment Monitoring
+* Student Record Management
+* Assignment Handling
 * Study Material Management
-* Student Communication
+* Student Monitoring
+* Communication System
 
 ### Placement Module
 
@@ -34,6 +42,36 @@ EduSphere is a web-based educational management platform designed to streamline 
 * Job Opportunities
 * Placement Updates
 * Backend API Integration
+
+### Attendance Notification System
+
+* Student attendance tracking
+* Parent email notification support for absent students
+* Improved communication between teachers and parents
+
+### Student-Teacher Integration
+
+* Teachers can add and manage student records.
+* Student information entered by teachers is reflected in the student portal.
+* Student dashboards display personalized information based on teacher-managed records.
+
+---
+
+## Demo Login Credentials
+
+### Teacher Login
+
+Email: [teacher@gmail.com](mailto:teacher@gmail.com)
+
+Password: teacher123
+
+### Student Login
+
+Email: [student@gmail.com](mailto:student@gmail.com)
+
+Password: student123
+
+---
 
 ## Tech Stack
 
@@ -50,15 +88,32 @@ EduSphere is a web-based educational management platform designed to streamline 
 * Node.js
 * Express.js
 
+### Storage
+
+* Local Storage (Most Modules)
+* Backend APIs (Placement Module)
+
+---
+
 ## Project Structure
 
 ```text
 EduSphere
 │
 ├── backend
+│   ├── server.js
+│   └── ...
 │
-└── student-teacher-dashboard
+├── student-teacher-dashboard
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── ...
+│
+└── README.md
 ```
+
+---
 
 ## Installation
 
@@ -68,14 +123,30 @@ EduSphere
 git clone https://github.com/yc1819/EduSphere.git
 ```
 
-### Run Backend
+Move into the project directory:
+
+```bash
+cd EduSphere
+```
+
+---
+
+## Running the Backend
+
+Open a terminal:
 
 ```bash
 cd backend
 node server.js
 ```
 
-### Run Frontend
+Backend server will start on the configured port.
+
+---
+
+## Running the Frontend
+
+Open another terminal:
 
 ```bash
 cd student-teacher-dashboard
@@ -83,20 +154,80 @@ npm install
 npm run dev
 ```
 
-## Notes
+The application will be available on the local development server provided by Vite.
 
-* The Placement Dashboard is connected to a Node.js backend.
-* Other modules currently use Local Storage for data persistence.
-* The project is under active development.
+---
+
+## Screenshots
+
+Add screenshots of:
+
+* Student Dashboard
+* Teacher Dashboard
+* Placement Dashboard
+* Attendance Module
+* Results Module
+* Study Material Module
+
+Example:
+
+```md
+![Student Dashboard](screenshots/student-dashboard.png)
+
+![Teacher Dashboard](screenshots/teacher-dashboard.png)
+
+![Placement Dashboard](screenshots/placement-dashboard.png)
+```
+
+---
+
+## Current Status
+
+🚧 Work in Progress
+
+Current implementation includes:
+
+* Student Dashboard
+* Teacher Dashboard
+* Attendance Module
+* Assignments Module
+* Examinations Module
+* Results Module
+* Library Module
+* Placement Dashboard
+* Parent Email Notification Support
+
+The Placement Dashboard is integrated with a backend service, while other modules currently use local storage for data persistence.
+
+---
 
 ## Future Enhancements
 
-* User Authentication
-* Database Integration
+* JWT Authentication
+* MongoDB Integration
+* Role-Based Access Control
 * Real-Time Notifications
 * Analytics Dashboard
 * Placement Application Tracking
-* Role-Based Access Control
+* Student Performance Analytics
+* AI-Powered Learning Assistance
+
+---
+
+## Learning Outcomes
+
+This project helped strengthen skills in:
+
+* React.js Development
+* Component-Based Architecture
+* State Management
+* Responsive UI Design
+* Frontend Development
+* Backend API Development
+* Git & GitHub Version Control
+* Full-Stack Application Development
+
+---
 
 ## Author
 
@@ -105,3 +236,7 @@ npm run dev
 Bachelor of Computer Applications (BCA)
 
 Aspiring Frontend Developer
+
+GitHub: https://github.com/yc1819
+
+LinkedIn: Add your LinkedIn profile link
