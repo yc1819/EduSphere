@@ -12,11 +12,11 @@ EduSphere is a modern educational management platform designed to streamline aca
 
 ## Landing Page
 
-<img width="100%" alt="Landing Page" src="https://github.com/user-attachments/assets/318797ef-6eec-4f35-839f-e64b138c085c" />
+<img width="100%" alt="Landing Page" src="https://github.com/user-attachments/assets/5ee72156-dd9c-494a-beba-3dacca16ca3e" />
 
 ## Login Page
 
-<img width="100%" alt="Login Page" src="https://github.com/user-attachments/assets/c799ef72-72ac-40a6-8dcb-507d40bfb5ee" />
+<img width="100%" alt="Login Page" src="https://github.com/user-attachments/assets/dcfeacd3-fd75-493e-b61f-7a4d9f2d15d4" />
 
 ## Teacher Dashboard
 
@@ -24,11 +24,11 @@ EduSphere is a modern educational management platform designed to streamline aca
 
 ## Student Dashboard
 
-<img width="100%" alt="Student Dashboard" src="https://github.com/user-attachments/assets/dcfeacd3-fd75-493e-b61f-7a4d9f2d15d4" />
+<img width="100%" alt="Student Dashboard" src="https://github.com/user-attachments/assets/c799ef72-72ac-40a6-8dcb-507d40bfb5ee" />
 
 ## Placement Cell Dashboard
 
-<img width="100%" alt="Placement Dashboard" src="https://github.com/user-attachments/assets/5ee72156-dd9c-494a-beba-3dacca16ca3e" />
+<img width="100%" alt="Placement Cell Dashboard" src="https://github.com/user-attachments/assets/318797ef-6eec-4f35-839f-e64b138c085c" />
 
 ---
 
