@@ -2,15 +2,41 @@
 
 🚧 **Currently Under Development**
 
+🚀 **React.js • Node.js • Express.js • Educational Management Platform**
+
 EduSphere is a modern educational management platform designed to streamline academic activities for students and teachers while providing placement support and communication features.
+
+---
+
+# Project Preview
+
+## Landing Page
+
+<img width="100%" alt="Landing Page" src="https://github.com/user-attachments/assets/318797ef-6eec-4f35-839f-e64b138c085c" />
+
+## Login Page
+
+<img width="100%" alt="Login Page" src="https://github.com/user-attachments/assets/c799ef72-72ac-40a6-8dcb-507d40bfb5ee" />
+
+## Teacher Dashboard
+
+<img width="100%" alt="Teacher Dashboard" src="https://github.com/user-attachments/assets/80ae9a4f-928f-4ec5-800f-50efe2e3ceee" />
+
+## Student Dashboard
+
+<img width="100%" alt="Student Dashboard" src="https://github.com/user-attachments/assets/dcfeacd3-fd75-493e-b61f-7a4d9f2d15d4" />
+
+## Placement Cell Dashboard
+
+<img width="100%" alt="Placement Dashboard" src="https://github.com/user-attachments/assets/5ee72156-dd9c-494a-beba-3dacca16ca3e" />
 
 ---
 
 # Overview
 
-EduSphere is a web-based Student-Teacher Management System that provides dedicated dashboards for students and teachers. The platform helps manage attendance, assignments, examinations, study materials, library resources, placement opportunities, communication, and academic records.
+EduSphere is a web-based Student-Teacher Management System that provides dedicated dashboards for students and teachers. The platform helps manage attendance, assignments, examinations, study materials, library resources, communication, academic records, and placement activities through a centralized interface.
 
-The project demonstrates frontend development using React.js and backend integration using Node.js and Express.js for selected modules.
+The project demonstrates frontend development using React.js and backend integration using Node.js and Express.js.
 
 ---
 
@@ -40,28 +66,31 @@ The project demonstrates frontend development using React.js and backend integra
 * Student Monitoring
 * Communication System
 
-## Placement Module
+## Placement Cell
 
 * Placement Dashboard
-* Job Opportunities
+* Placement Analytics
+* Company Management
+* Job Listings
+* Applicant Tracking
 * Placement Updates
 * Backend API Integration
 
 ## Attendance Notification System
 
-* Student attendance tracking
-* Parent email notification support for absent students
-* Improved communication between teachers and parents
+* Student Attendance Tracking
+* Parent Email Notification Support for Absent Students
+* Improved Communication Between Teachers and Parents
 
 ## Student-Teacher Integration
 
-* Teachers can add and manage student records.
-* Student information entered by teachers is reflected in the student portal.
-* Student dashboards display personalized information based on teacher-managed records.
+* Teachers Can Add and Manage Student Records
+* Student Information Entered by Teachers is Reflected in the Student Portal
+* Student Dashboards Display Personalized Information Based on Teacher-Managed Records
 
 ---
 
-# Demo Login Credentials
+# Demo Credentials
 
 ## Teacher Login
 
@@ -92,9 +121,9 @@ The project demonstrates frontend development using React.js and backend integra
 * Node.js
 * Express.js
 
-## Storage
+## Data Storage
 
-* Local Storage (Most Modules)
+* Local Storage (Academic Modules)
 * Backend APIs (Placement Module)
 
 ---
@@ -162,38 +191,17 @@ The application will be available on the local development server provided by Vi
 
 ---
 
-# Screenshots
-
-Add screenshots of:
-
-* Student Dashboard
-* Teacher Dashboard
-* Placement Dashboard
-* Attendance Module
-* Results Module
-* Study Material Module
-
-Example:
-
-```md
-![Student Dashboard](screenshots/student-dashboard.png)
-
-![Teacher Dashboard](screenshots/teacher-dashboard.png)
-
-![Placement Dashboard](screenshots/placement-dashboard.png)
-```
-
----
-
 # Current Development Status
 
-### Completed
+## Completed
 
+* Landing Page
+* Login System
 * Student Dashboard
 * Teacher Dashboard
 * Attendance Module
 * Assignments Module
-* Examinations Module
+* Examination Module
 * Results Module
 * Fee Management
 * Library Management
@@ -202,7 +210,7 @@ Example:
 * Placement Dashboard
 * Student Record Integration
 
-### In Progress
+## In Progress
 
 * Enhanced Backend Integration
 * Parent Email Notification Automation
@@ -211,11 +219,11 @@ Example:
 * Placement Application Tracking
 * Performance Optimization
 
-### Notes
+## Notes
 
-* The Placement Dashboard is integrated with a Node.js backend.
-* Most other modules currently use Local Storage for data persistence during development.
-* Additional backend functionality is being implemented.
+* Placement Dashboard is integrated with a Node.js backend.
+* Most academic modules currently use Local Storage for data persistence.
+* Additional backend functionality is under development.
 
 ---
 
@@ -258,4 +266,4 @@ Aspiring Frontend Developer
 
 GitHub: https://github.com/yc1819
 
-LinkedIn: Add your LinkedIn Profile Link
+LinkedIn: https://www.linkedin.com/in/yashika-41695a35a/
