@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* GLOBAL DARK MODE */
+
+.dark body {
+  background-color: #0f172a;
+  color: #f3f4f6;
+}
+
+/* MAIN BACKGROUND */
+.dark .bg-gray-50,
+.dark .bg-gray-100,
+.dark .bg-slate-50,
+.dark .bg-slate-100 {
+  background-color: #111827 !important;
+}
+
+/* CARDS */
+.dark .bg-white {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+/* SIDEBAR */
+.dark aside,
+.dark .sidebar {
+  background-color: #111827 !important;
+  color: white !important;
+}
+
+/* INPUTS */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #374151 !important;
+  color: white !important;
+  border-color: #4b5563 !important;
+}
+
+/* PLACEHOLDER */
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #d1d5db !important;
+}
+
+/* TABLES */
+.dark table {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+.dark thead {
+  background-color: #2563eb !important;
+}
+
+.dark th {
+  background-color: #2563eb !important;
+  color: white !important;
+}
+
+.dark td {
+  color: #f3f4f6 !important;
+  border-color: #374151 !important;
+}
+
+/* TABLE ROW HOVER */
+.dark tr:hover {
+  background-color: #374151 !important;
+}
+
+/* BORDERS */
+.dark .border,
+.dark .border-b,
+.dark .border-t,
+.dark .border-l,
+.dark .border-r {
+  border-color: #374151 !important;
+}
+
+/* TEXT COLORS */
+.dark .text-black {
+  color: white !important;
+}
+
+.dark .text-gray-400,
+.dark .text-gray-500,
+.dark .text-gray-600,
+.dark .text-gray-700,
+.dark .text-gray-800,
+.dark .text-gray-900 {
+  color: #d1d5db !important;
+}
+
+/* HEADINGS */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark span,
+.dark label {
+  color: #f9fafb !important;
+}
+
+/* BUTTONS */
+.dark button {
+  color: white;
+}
+
+/* MODALS */
+.dark .modal,
+.dark .popup {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+/* DROPDOWNS */
+.dark .dropdown-menu {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+/* LINKS */
+.dark a {
+  color: #60a5fa !important;
+}
+
+/* SCROLLBAR */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 10px;
+}
+
+/* TRANSITIONS */
+body,
+div,
+section,
+aside,
+main,
+table,
+input,
+textarea,
+button {
+  transition: background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}/* FIX EXTRA WHITE TEXT ISSUES */
+
+.dark .fc,
+.dark .fc-toolbar-title,
+.dark .fc-col-header-cell-cushion,
+.dark .fc-daygrid-day-number {
+  color: white !important;
+}
+
+/* CHARTS */
+.dark .recharts-cartesian-axis-tick-value,
+.dark .recharts-text {
+  fill: white !important;
+}
+
+/* CARDS */
+.dark .shadow,
+.dark .rounded-xl,
+.dark .rounded-2xl {
+  background-color: #1f2937 !important;
+  color: white !important;
+}
+
+/* BUTTON TEXT */
+.dark button {
+  color: white !important;
+}
+
+/* PLACEHOLDER TEXT */
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #cbd5e1 !important;
+}
+
+/* FORCE VISIBILITY */
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark p,
+.dark span,
+.dark div,
+.dark label {
+  color: inherit;
+}
+
+/* SIDEBAR ACTIVE ITEMS */
+.dark .bg-blue-100 {
+  background-color: #2563eb !important;
+  color: white !important;
+}
+
+/* CALENDAR CELLS */
+.dark .fc-theme-standard td,
+.dark .fc-theme-standard th {
+  border-color: #374151 !important;
+}
+
+/* FULLCALENDAR */
+.dark .fc-theme-standard .fc-scrollgrid {
+  border-color: #374151 !important;
+}

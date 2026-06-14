@@ -1,0 +1,157 @@
+body {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Intro screen */
+.intro-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #6366f1, #818cf8);
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.intro-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.intro-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-subtext {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Login page */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.login-card {
+  background: #1c1c1c;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.05);
+  width: 400px;
+  text-align: center;
+  animation: slideUp 0.7s ease-out;
+}
+
+.brand-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #bdbdbd;
+  margin-bottom: 24px;
+}
+
+.welcome-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.subtext {
+  font-size: 13px;
+  color: #bdbdbd;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.login-form label {
+  font-size: 13px;
+  color: #dcdcdc;
+}
+
+.login-form input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2b2b2b;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: transparent;
+  border: none;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.toggle-password:hover {
+  color: white;
+}
+
+.login-btn {
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  margin-top: 8px;
+}
+
+.login-btn:hover {
+  background-color: #4338ca;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
